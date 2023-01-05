@@ -1,0 +1,9 @@
+title 0.6: New note in Single page app diagram
+
+note over browser:
+user submits new note.
+Handler function adds it and redraws the notes.
+end note
+
+browser->>server: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->>browser: note created confirmation message
